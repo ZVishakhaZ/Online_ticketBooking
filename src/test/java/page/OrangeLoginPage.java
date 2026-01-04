@@ -50,7 +50,9 @@ public class OrangeLoginPage extends BasePage{
 	}
 	
 	public void clickLogin() {
-		WebElement btnRelLogin= DriverFactory.getDriver().findElement(RelativeLocator.with(By.tagName("button")).below(edtPassword));
+		WebElement btnRelLogin= DriverFactory.getDriver()
+				.findElement(RelativeLocator.with(By.tagName("button"))
+						.below(edtPassword));
 		btnRelLogin.click();
 		//click(btnLogin);
 	}
