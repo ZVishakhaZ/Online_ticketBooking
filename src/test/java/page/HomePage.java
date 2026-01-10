@@ -16,6 +16,8 @@ public class HomePage extends BasePage{
 	@FindBy(className="commonModal__close")
 	WebElement btnLoginClose;
 	
+	//New Locator On Payment Page 
+	
 	@FindBy(id="fromCity")
 	WebElement edtFrom;
 	
